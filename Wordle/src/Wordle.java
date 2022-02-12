@@ -116,7 +116,7 @@ public class Wordle {
         List<String> listOfStrings = new ArrayList<String>();
 
         try {
-            File file = new File("./bin/word.txt");
+            File file = new File("../bin/word.txt");
 
             Scanner freader = new Scanner(file);
 
